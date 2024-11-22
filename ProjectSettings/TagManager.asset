@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: River
+    uniqueID: 2687532795
+    locked: 0
+  - name: Land
+    uniqueID: 3126024797
+    locked: 0
+  - name: Grass
+    uniqueID: 3865442133
+    locked: 0
+  - name: DetailGrass
+    uniqueID: 535408479
+    locked: 0
+  - name: Brick background
+    uniqueID: 1764310163
+    locked: 0
+  - name: Wall
+    uniqueID: 654705341
+    locked: 0
+  - name: Hill
+    uniqueID: 335486075
+    locked: 0
+  - name: GrassHill
+    uniqueID: 3485376183
+    locked: 0
+  - name: Object
+    uniqueID: 2336746245
+    locked: 0
+  - name: OnObject
+    uniqueID: 3451858079
+    locked: 0
+  - name: Roof
+    uniqueID: 1331309553
+    locked: 0
+  - name: OnRoof
+    uniqueID: 3842517243
+    locked: 0
+  - name: UI
+    uniqueID: 2244493137
+    locked: 0

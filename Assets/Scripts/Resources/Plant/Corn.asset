@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bb3e1d189455a44823a5ded368544b, type: 3}
+  m_Name: Corn
+  m_EditorClassIdentifier: 
+  plantName: Corn
+  dayGrown: 1
+  spriteGrown:
+  - {fileID: 0}
+  - {fileID: -879050453, guid: caff414174fc48948bea46de8307120b, type: 3}
+  - {fileID: -1626037499, guid: caff414174fc48948bea46de8307120b, type: 3}
+  - {fileID: -1174580982, guid: caff414174fc48948bea46de8307120b, type: 3}
+  - {fileID: 104226303, guid: caff414174fc48948bea46de8307120b, type: 3}
+  - {fileID: -1480173113, guid: caff414174fc48948bea46de8307120b, type: 3}
+  dropList: []

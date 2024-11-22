@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4800b3bc565b5a1408152762cba389fe
+timeCreated: 1475577208
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 110382
+  packageName: Save Game
+  packageVersion: 1.0
+  assetPath: Assets/SaveGame/Scripts/SaveSystemSetup.cs
+  uploadId: 226873

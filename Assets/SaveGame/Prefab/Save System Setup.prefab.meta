@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7390c897091da344f9e8cd44bca04117
+timeCreated: 1475606876
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 110382
+  packageName: Save Game
+  packageVersion: 1.0
+  assetPath: Assets/SaveGame/Prefab/Save System Setup.prefab
+  uploadId: 226873

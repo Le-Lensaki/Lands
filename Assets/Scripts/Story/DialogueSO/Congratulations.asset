@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4b649eba51b8745b201520e9cdf925, type: 3}
+  m_Name: Congratulations
+  m_EditorClassIdentifier: 
+  idDialogue: 2
+  content:
+  - actor: {fileID: 11400000, guid: d9b9e02fc9cb71f4da3f57c6c37a5d97, type: 2}
+    content: Chuc mung nguoi da hoan thanh nhiem vu
+    choice:
+      choice1: 
+      choice2: 
+  - actor: {fileID: 11400000, guid: d9b9e02fc9cb71f4da3f57c6c37a5d97, type: 2}
+    content: Su dung bang cach mo tui "Chan Meo" ben phai man hinh roi xep vao vi
+      tri mong muon
+    choice:
+      choice1: 
+      choice2: 

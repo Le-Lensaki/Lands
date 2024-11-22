@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f497af31bef1f7b43b05be6393feb9fd, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  id: 7
+  tagName: 2
+  nameItem: Apple
+  foodStat: 5
+  discription: You eat it and you will plus 5 hp
+  seedPlant: {fileID: 0}
+  icon: {fileID: -1156195111, guid: 9aa47a83582cadb4ba02527179bb109a, type: 3}

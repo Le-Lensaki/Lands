@@ -1,0 +1,2354 @@
+fileFormatVersion: 2
+guid: 5a0076b3d64e0c84198e47e12eb49249
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5576804082954406279
+    second: Weather_Icons_Big_0
+  - first:
+      213: -1809425806253478266
+    second: Weather_Icons_Big_1
+  - first:
+      213: 6437606459392735975
+    second: Weather_Icons_Big_2
+  - first:
+      213: 2506563976459600868
+    second: Weather_Icons_Big_3
+  - first:
+      213: 1866123288601020071
+    second: Weather_Icons_Big_4
+  - first:
+      213: 228951854912704438
+    second: Weather_Icons_Big_5
+  - first:
+      213: -2742655623114906710
+    second: Weather_Icons_Big_6
+  - first:
+      213: 4784364240378455371
+    second: Weather_Icons_Big_7
+  - first:
+      213: -3449797403723896571
+    second: Weather_Icons_Big_8
+  - first:
+      213: -742264720398426100
+    second: Weather_Icons_Big_9
+  - first:
+      213: -1510079764286022947
+    second: Weather_Icons_Big_10
+  - first:
+      213: 7863066715384567938
+    second: Weather_Icons_Big_11
+  - first:
+      213: -9222510756445881350
+    second: Weather_Icons_Big_12
+  - first:
+      213: -947637346752650160
+    second: Weather_Icons_Big_13
+  - first:
+      213: -2011818459347090852
+    second: Weather_Icons_Big_14
+  - first:
+      213: 5731738118091500941
+    second: Weather_Icons_Big_15
+  - first:
+      213: 6931126863377370964
+    second: Weather_Icons_Big_16
+  - first:
+      213: -589391820143471426
+    second: Weather_Icons_Big_17
+  - first:
+      213: 8184259140105658007
+    second: Weather_Icons_Big_18
+  - first:
+      213: -6857036384705413542
+    second: Weather_Icons_Big_19
+  - first:
+      213: 6581992777020967595
+    second: Weather_Icons_Big_20
+  - first:
+      213: 220024848716348574
+    second: Weather_Icons_Big_21
+  - first:
+      213: 8093666238667865682
+    second: Weather_Icons_Big_22
+  - first:
+      213: -9186349488276031384
+    second: Weather_Icons_Big_23
+  - first:
+      213: 35675527125597492
+    second: Weather_Icons_Big_24
+  - first:
+      213: -7264112586076089291
+    second: Weather_Icons_Big_25
+  - first:
+      213: 6958733669874584569
+    second: Weather_Icons_Big_26
+  - first:
+      213: 3253568607779703983
+    second: Weather_Icons_Big_27
+  - first:
+      213: -7684630746343627280
+    second: Weather_Icons_Big_28
+  - first:
+      213: -3839177556954508907
+    second: Weather_Icons_Big_29
+  - first:
+      213: 3425593813825717335
+    second: Weather_Icons_Big_30
+  - first:
+      213: -5831283502336069425
+    second: Weather_Icons_Big_31
+  - first:
+      213: 5989582772586211271
+    second: Weather_Icons_Big_32
+  - first:
+      213: -866914708826698039
+    second: Weather_Icons_Big_33
+  - first:
+      213: -1095905824404168823
+    second: Weather_Icons_Big_34
+  - first:
+      213: 7631347802866691851
+    second: Weather_Icons_Big_35
+  - first:
+      213: -5257786458225316506
+    second: Weather_Icons_Big_36
+  - first:
+      213: -5155802684464472940
+    second: Weather_Icons_Big_37
+  - first:
+      213: 5923692749190011755
+    second: Weather_Icons_Big_38
+  - first:
+      213: 2701162817640671882
+    second: Weather_Icons_Big_39
+  - first:
+      213: -533375624028553901
+    second: Weather_Icons_Big_40
+  - first:
+      213: -6726125974512925503
+    second: Weather_Icons_Big_41
+  - first:
+      213: -5150833112355513858
+    second: Weather_Icons_Big_42
+  - first:
+      213: 2246778269811068378
+    second: Weather_Icons_Big_43
+  - first:
+      213: -4039225864713710543
+    second: Weather_Icons_Big_44
+  - first:
+      213: -4353647176470049241
+    second: Weather_Icons_Big_45
+  - first:
+      213: -3789672225748425618
+    second: Weather_Icons_Big_46
+  - first:
+      213: -4234430107571247075
+    second: Weather_Icons_Big_47
+  - first:
+      213: -576300749921799968
+    second: Weather_Icons_Big_48
+  - first:
+      213: 8136087639306987072
+    second: Weather_Icons_Big_49
+  - first:
+      213: 4827333052201747086
+    second: Weather_Icons_Big_50
+  - first:
+      213: -5176190178924697901
+    second: Weather_Icons_Big_51
+  - first:
+      213: -4593715019208557849
+    second: Weather_Icons_Big_52
+  - first:
+      213: -1268535007863944529
+    second: Weather_Icons_Big_53
+  - first:
+      213: -7602222476321768229
+    second: Weather_Icons_Big_54
+  - first:
+      213: -8482017261685385570
+    second: Weather_Icons_Big_55
+  - first:
+      213: -7627169660272877623
+    second: Weather_Icons_Big_56
+  - first:
+      213: 7908995766875345157
+    second: Weather_Icons_Big_57
+  - first:
+      213: 2795983221344973278
+    second: Weather_Icons_Big_58
+  - first:
+      213: -1344418695774304581
+    second: Weather_Icons_Big_59
+  - first:
+      213: 694216815069507010
+    second: Weather_Icons_Big_60
+  - first:
+      213: 3555999134929560040
+    second: Weather_Icons_Big_61
+  - first:
+      213: 119149981779210760
+    second: Weather_Icons_Big_62
+  - first:
+      213: -230177302020688838
+    second: Weather_Icons_Big_63
+  - first:
+      213: 7013138731561267572
+    second: Weather_Icons_Big_64
+  - first:
+      213: 8024563442723346959
+    second: Weather_Icons_Big_65
+  - first:
+      213: -2838088955464040472
+    second: Weather_Icons_Big_66
+  - first:
+      213: -2773663611828019709
+    second: Weather_Icons_Big_67
+  - first:
+      213: 2495410174608762176
+    second: Weather_Icons_Big_68
+  - first:
+      213: 7657082355208209442
+    second: Weather_Icons_Big_69
+  - first:
+      213: -2946113092218650113
+    second: Weather_Icons_Big_70
+  - first:
+      213: -7517160967502902796
+    second: Weather_Icons_Big_71
+  - first:
+      213: -8258745811051466872
+    second: Weather_Icons_Big_72
+  - first:
+      213: 7677015687838185660
+    second: Weather_Icons_Big_73
+  - first:
+      213: 8682031392596909955
+    second: Weather_Icons_Big_74
+  - first:
+      213: 8828538895994641968
+    second: Weather_Icons_Big_75
+  - first:
+      213: -6733617695708216070
+    second: Weather_Icons_Big_76
+  - first:
+      213: 4736237884748441266
+    second: Weather_Icons_Big_77
+  - first:
+      213: 2713865626876375847
+    second: Weather_Icons_Big_78
+  - first:
+      213: -3635781819654416174
+    second: Weather_Icons_Big_79
+  - first:
+      213: -4033912740960592116
+    second: Weather_Icons_Big_80
+  - first:
+      213: 8027121700480111276
+    second: Weather_Icons_Big_81
+  - first:
+      213: -8717574179132308142
+    second: Weather_Icons_Big_82
+  - first:
+      213: 8206519744987305519
+    second: Weather_Icons_Big_83
+  - first:
+      213: -4778015874089939233
+    second: Weather_Icons_Big_84
+  - first:
+      213: -2364831151115738810
+    second: Weather_Icons_Big_85
+  - first:
+      213: 7255481395380811098
+    second: Weather_Icons_Big_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 48
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Weather_Icons_Big_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976fd85db363b92b0800000000000000
+      internalID: -5576804082954406279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e26d2e0d0a3e6e0800000000000000
+      internalID: -1809425806253478266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea3dd787f8f65950800000000000000
+      internalID: 6437606459392735975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e34aaff7aa19c220800000000000000
+      internalID: 2506563976459600868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6c52c6e3dc5e910800000000000000
+      internalID: 1866123288601020071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf0dbebf766d2300800000000000000
+      internalID: 228951854912704438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa32203fd3120f9d0800000000000000
+      internalID: -2742655623114906710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e6df8de9756240800000000000000
+      internalID: 4784364240378455371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509e8f30a8bdf10d0800000000000000
+      internalID: -3449797403723896571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00e8536b22f2b5f0800000000000000
+      internalID: -742264720398426100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddad933847e1b0be0800000000000000
+      internalID: -1510079764286022947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288d1bf64893f1d60800000000000000
+      internalID: 7863066715384567938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbf2d8745f030080800000000000000
+      internalID: -9222510756445881350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0542aea9ad059d2f0800000000000000
+      internalID: -947637346752650160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c520b0235c59414e0800000000000000
+      internalID: -2011818459347090852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8de86a43793b8f40800000000000000
+      internalID: 5731738118091500941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_16
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f86c8d82f403060800000000000000
+      internalID: 6931126863377370964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_17
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4d3d6234f02d7f0800000000000000
+      internalID: -589391820143471426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_18
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eddbb6354549170800000000000000
+      internalID: 8184259140105658007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e74bdfcb9e6d0a0800000000000000
+      internalID: -6857036384705413542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa858cce8fe75b50800000000000000
+      internalID: 6581992777020967595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c3f752f6fad0300800000000000000
+      internalID: 220024848716348574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ebe5edf8a725070800000000000000
+      internalID: 8093666238667865682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86837b0dfc7838080800000000000000
+      internalID: -9186349488276031384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dfe71f3bebe7000800000000000000
+      internalID: 35675527125597492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5349d720710b03b90800000000000000
+      internalID: -7264112586076089291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_26
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbcc6f5763629060800000000000000
+      internalID: 6958733669874584569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac421f196ff62d20800000000000000
+      internalID: 3253568607779703983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_28
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 294
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5a4261d05ba5590800000000000000
+      internalID: -7684630746343627280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_29
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 247
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59113105a5088bac0800000000000000
+      internalID: -3839177556954508907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_30
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 246
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7548bd19c672a8f20800000000000000
+      internalID: 3425593813825717335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 246
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b9a2dc8e131fa0800000000000000
+      internalID: -5831283502336069425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_32
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 247
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7ecc82cc54f1350800000000000000
+      internalID: 5989582772586211271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 249
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cec2d95aa918f3f0800000000000000
+      internalID: -866914708826698039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_34
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 246
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f9b15857f8ac0f0800000000000000
+      internalID: -1095905824404168823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_35
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 246
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fa353e46ef7e960800000000000000
+      internalID: 7631347802866691851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 247
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dee9cb2179807b0800000000000000
+      internalID: -5257786458225316506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_37
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 250
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c5d7c66c8e278b0800000000000000
+      internalID: -5155802684464472940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_38
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 246
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b170a9b2f253250800000000000000
+      internalID: 5923692749190011755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_39
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 202
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a27f175457c7520800000000000000
+      internalID: 2701162817640671882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_40
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 199
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dfce522b11998f0800000000000000
+      internalID: -533375624028553901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 203
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c401ae001008a2a0800000000000000
+      internalID: -6726125974512925503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 198
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9dab813909488b0800000000000000
+      internalID: -5150833112355513858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_43
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 203
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addc725bee82e2f10800000000000000
+      internalID: 2246778269811068378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_44
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 200
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1345b2e0a79c1f7c0800000000000000
+      internalID: -4039225864713710543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_45
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 203
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ece19a5fcb493c0800000000000000
+      internalID: -4353647176470049241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_46
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 203
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64e9117031686bc0800000000000000
+      internalID: -3789672225748425618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_47
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 201
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d182ffb80484c35c0800000000000000
+      internalID: -4234430107571247075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_48
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 203
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0be1575819008f0800000000000000
+      internalID: -576300749921799968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_49
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 153
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046e652e99039e070800000000000000
+      internalID: 8136087639306987072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 152
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82ccfca5d12ef240800000000000000
+      internalID: 4827333052201747086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 151
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6e357f47a7a28b0800000000000000
+      internalID: -5176190178924697901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_52
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea72b05788df30c0800000000000000
+      internalID: -4593715019208557849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_53
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 151
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa4f1f9122456ee0800000000000000
+      internalID: -1268535007863944529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_54
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 151
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcb953afea7f7690800000000000000
+      internalID: -7602222476321768229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_55
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 150
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96d28a7d32d94a80800000000000000
+      internalID: -8482017261685385570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_56
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 151
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf5ccdba99d62690800000000000000
+      internalID: -7627169660272877623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_57
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 150
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5015cae0fb562cd60800000000000000
+      internalID: 7908995766875345157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed138321de35dc620800000000000000
+      internalID: 2795983221344973278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb68af8b15aa75de0800000000000000
+      internalID: -1344418695774304581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_60
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd2253e38a52a900800000000000000
+      internalID: 694216815069507010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1a21b6f52795130800000000000000
+      internalID: 3555999134929560040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_62
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802b1f2f64e47a100800000000000000
+      internalID: 119149981779210760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_63
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34f2bd96fe3eccf0800000000000000
+      internalID: -230177302020688838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_64
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4713e37e48ca35160800000000000000
+      internalID: 7013138731561267572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_65
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a5c196fe9fc5f60800000000000000
+      internalID: 8024563442723346959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_66
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef3b90c1251d98d0800000000000000
+      internalID: -2838088955464040472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_67
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 102
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e509af3a7f189d0800000000000000
+      internalID: -2773663611828019709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_68
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0456372255a71a220800000000000000
+      internalID: 2495410174608762176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_69
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224c81645db634a60800000000000000
+      internalID: 7657082355208209442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_70
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff10e2670cd4d17d0800000000000000
+      internalID: -2946113092218650113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9ce8c7dedada790800000000000000
+      internalID: -7517160967502902796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_72
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f280a017a036d80800000000000000
+      internalID: -8258745811051466872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_73
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb832b0f71d3a8a60800000000000000
+      internalID: 7677015687838185660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_74
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f578c5d85cc7870800000000000000
+      internalID: 8682031392596909955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_75
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03eda7da955458a70800000000000000
+      internalID: 8828538895994641968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_76
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4070ac1626d82a0800000000000000
+      internalID: -6733617695708216070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_77
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 54
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6ad24334f7ab140800000000000000
+      internalID: 4736237884748441266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_78
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723fb12b86699a520800000000000000
+      internalID: 2713865626876375847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_79
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8dcaeb2bb1b8dc0800000000000000
+      internalID: -3635781819654416174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_80
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f1f141cb9a408c0800000000000000
+      internalID: -4033912740960592116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_81
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca252f538a0166f60800000000000000
+      internalID: 8027121700480111276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_82
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25583b5c874f40780800000000000000
+      internalID: -8717574179132308142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_83
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2692326a3a63e170800000000000000
+      internalID: 8206519744987305519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_84
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde01b5a0e311bdb0800000000000000
+      internalID: -4778015874089939233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_85
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641e7f3f89e6e2fd0800000000000000
+      internalID: -2364831151115738810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Icons_Big_86
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 6
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55f02e43e5a0b460800000000000000
+      internalID: 7255481395380811098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Weather_Icons_Big_0: -5576804082954406279
+      Weather_Icons_Big_1: -1809425806253478266
+      Weather_Icons_Big_10: -1510079764286022947
+      Weather_Icons_Big_11: 7863066715384567938
+      Weather_Icons_Big_12: -9222510756445881350
+      Weather_Icons_Big_13: -947637346752650160
+      Weather_Icons_Big_14: -2011818459347090852
+      Weather_Icons_Big_15: 5731738118091500941
+      Weather_Icons_Big_16: 6931126863377370964
+      Weather_Icons_Big_17: -589391820143471426
+      Weather_Icons_Big_18: 8184259140105658007
+      Weather_Icons_Big_19: -6857036384705413542
+      Weather_Icons_Big_2: 6437606459392735975
+      Weather_Icons_Big_20: 6581992777020967595
+      Weather_Icons_Big_21: 220024848716348574
+      Weather_Icons_Big_22: 8093666238667865682
+      Weather_Icons_Big_23: -9186349488276031384
+      Weather_Icons_Big_24: 35675527125597492
+      Weather_Icons_Big_25: -7264112586076089291
+      Weather_Icons_Big_26: 6958733669874584569
+      Weather_Icons_Big_27: 3253568607779703983
+      Weather_Icons_Big_28: -7684630746343627280
+      Weather_Icons_Big_29: -3839177556954508907
+      Weather_Icons_Big_3: 2506563976459600868
+      Weather_Icons_Big_30: 3425593813825717335
+      Weather_Icons_Big_31: -5831283502336069425
+      Weather_Icons_Big_32: 5989582772586211271
+      Weather_Icons_Big_33: -866914708826698039
+      Weather_Icons_Big_34: -1095905824404168823
+      Weather_Icons_Big_35: 7631347802866691851
+      Weather_Icons_Big_36: -5257786458225316506
+      Weather_Icons_Big_37: -5155802684464472940
+      Weather_Icons_Big_38: 5923692749190011755
+      Weather_Icons_Big_39: 2701162817640671882
+      Weather_Icons_Big_4: 1866123288601020071
+      Weather_Icons_Big_40: -533375624028553901
+      Weather_Icons_Big_41: -6726125974512925503
+      Weather_Icons_Big_42: -5150833112355513858
+      Weather_Icons_Big_43: 2246778269811068378
+      Weather_Icons_Big_44: -4039225864713710543
+      Weather_Icons_Big_45: -4353647176470049241
+      Weather_Icons_Big_46: -3789672225748425618
+      Weather_Icons_Big_47: -4234430107571247075
+      Weather_Icons_Big_48: -576300749921799968
+      Weather_Icons_Big_49: 8136087639306987072
+      Weather_Icons_Big_5: 228951854912704438
+      Weather_Icons_Big_50: 4827333052201747086
+      Weather_Icons_Big_51: -5176190178924697901
+      Weather_Icons_Big_52: -4593715019208557849
+      Weather_Icons_Big_53: -1268535007863944529
+      Weather_Icons_Big_54: -7602222476321768229
+      Weather_Icons_Big_55: -8482017261685385570
+      Weather_Icons_Big_56: -7627169660272877623
+      Weather_Icons_Big_57: 7908995766875345157
+      Weather_Icons_Big_58: 2795983221344973278
+      Weather_Icons_Big_59: -1344418695774304581
+      Weather_Icons_Big_6: -2742655623114906710
+      Weather_Icons_Big_60: 694216815069507010
+      Weather_Icons_Big_61: 3555999134929560040
+      Weather_Icons_Big_62: 119149981779210760
+      Weather_Icons_Big_63: -230177302020688838
+      Weather_Icons_Big_64: 7013138731561267572
+      Weather_Icons_Big_65: 8024563442723346959
+      Weather_Icons_Big_66: -2838088955464040472
+      Weather_Icons_Big_67: -2773663611828019709
+      Weather_Icons_Big_68: 2495410174608762176
+      Weather_Icons_Big_69: 7657082355208209442
+      Weather_Icons_Big_7: 4784364240378455371
+      Weather_Icons_Big_70: -2946113092218650113
+      Weather_Icons_Big_71: -7517160967502902796
+      Weather_Icons_Big_72: -8258745811051466872
+      Weather_Icons_Big_73: 7677015687838185660
+      Weather_Icons_Big_74: 8682031392596909955
+      Weather_Icons_Big_75: 8828538895994641968
+      Weather_Icons_Big_76: -6733617695708216070
+      Weather_Icons_Big_77: 4736237884748441266
+      Weather_Icons_Big_78: 2713865626876375847
+      Weather_Icons_Big_79: -3635781819654416174
+      Weather_Icons_Big_8: -3449797403723896571
+      Weather_Icons_Big_80: -4033912740960592116
+      Weather_Icons_Big_81: 8027121700480111276
+      Weather_Icons_Big_82: -8717574179132308142
+      Weather_Icons_Big_83: 8206519744987305519
+      Weather_Icons_Big_84: -4778015874089939233
+      Weather_Icons_Big_85: -2364831151115738810
+      Weather_Icons_Big_86: 7255481395380811098
+      Weather_Icons_Big_9: -742264720398426100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

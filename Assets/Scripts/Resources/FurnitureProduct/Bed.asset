@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7b1af4ff80b2174891210b8b3b8293c, type: 3}
+  m_Name: Bed
+  m_EditorClassIdentifier: 
+  idFurnitureProduct: 1
+  nameFurnitureProduct: Bed
+  discriptionFurnitureProduct: Sleep until 6 a.m. tomorrow morning
+  materialFurnitureProducts:
+  - item: {fileID: 11400000, guid: 237c5de15f49b0d4ab66ce577c9eb8db, type: 2}
+    quatity: 15
+  - item: {fileID: 11400000, guid: eba1d1350d635964eb9fab300aa14bd8, type: 2}
+    quatity: 15
+  - item: {fileID: 11400000, guid: 61644a536cc8e1d458423fa641da6a8d, type: 2}
+    quatity: 15
+  icon: {fileID: -1429910995, guid: 558410d8f455cdb4dac8c5b95c248c1f, type: 3}

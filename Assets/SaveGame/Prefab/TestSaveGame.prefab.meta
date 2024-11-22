@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bd239a951c50dbb42b91a8d6e7baff8f
+timeCreated: 1517235478
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 110382
+  packageName: Save Game
+  packageVersion: 1.0
+  assetPath: Assets/SaveGame/Prefab/TestSaveGame.prefab
+  uploadId: 226873

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5908e3c6b49b9458624c083571840d, type: 3}
+  m_Name: Farm
+  m_EditorClassIdentifier: 
+  titleQuest: Farm
+  discriptionQuest: If you want to eat it, go to the kitchen, plant the seeds and
+    wait 6-7 days to harvest 7 fruits
+  stepGoalList:
+  - {fileID: 11400000, guid: d0952b4a35a3b5a46bef2d8b83188a1c, type: 2}
+  - {fileID: 11400000, guid: 5727bec2a79e6d44cbe13e594e8637dd, type: 2}
+  currentStep: 0
+  idDialogueAcceptQuest: 9
+  idNPCGiveQuest: 1
+  rewards:
+  - item: 10
+    amount: 100
+  isAccept: 0
+  isCompletedQuest: 0
