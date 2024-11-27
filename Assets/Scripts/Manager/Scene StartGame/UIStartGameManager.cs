@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class UIStartGameManager : Singleton<UIStartGameManager>
 {
@@ -36,21 +37,36 @@ public class UIStartGameManager : Singleton<UIStartGameManager>
     public virtual void OpenUIFileSave()
     {
         uIFileSave.SetActive(true);
+        uIFileSave.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 1f, false).SetEase(Ease.InOutBack).OnComplete(() =>
+        {
+
+        });
     }
 
     public virtual void CloseUIFileSave()
     {
-        uIFileSave.SetActive(false);
+        uIFileSave.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -1000f), 0.3f, false).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            uIFileSave.SetActive(false);
+        });
     }
 
     public virtual void OpenUISetting()
     {
         uISetting.SetActive(true);
+        uISetting.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 1f, false).SetEase(Ease.InOutBack).OnComplete(() =>
+        {
+
+        });
     }
 
     public virtual void CloseUISetting()
     {
-        uISetting.SetActive(false);
+
+        uISetting.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -1000f), 0.3f, false).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            uISetting.SetActive(false);
+        });
     }
 
 }

@@ -235,7 +235,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6288636171392573302}
   - component: {fileID: 3898881921659542566}
-  - component: {fileID: 2540199335991611303}
   m_Layer: 0
   m_Name: HighLightUsing
   m_TagString: Untagged
@@ -274,28 +273,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5783574850597511105}
   m_CullTransparentMesh: 1
---- !u!95 &2540199335991611303
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5783574850597511105}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2b1013c75c5e28940b5f762726d690ba, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8819065463210464084
 GameObject:
   m_ObjectHideFlags: 0

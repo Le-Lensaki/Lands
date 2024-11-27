@@ -55,6 +55,6 @@ public class ButtonSetting : BaseButton
 
     protected override void OnClick()
     {
-        UIManagerSceneMainGame.Instance.OpenScreenSetting();
+        UIManagerSceneMainGame.Instance.OpenUISetting();
     }
 }

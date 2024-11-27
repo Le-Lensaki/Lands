@@ -55,6 +55,6 @@ public class ButtonOpenBag : BaseButton
 
     protected override void OnClick()
     {
-        UIManagerSceneMainGame.Instance.OpenCloseInventory();
+        UIManagerSceneMainGame.Instance.OpenInventory();
     }
 }

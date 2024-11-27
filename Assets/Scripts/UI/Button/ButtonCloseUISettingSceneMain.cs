@@ -21,6 +21,6 @@ public class ButtonCloseUISettingSceneMain : BaseButton
 
     protected override void OnClick()
     {
-        UIManagerSceneMainGame.Instance.ChangeScreenPlaying();
+        UIManagerSceneMainGame.Instance.CloseUISetting();
     }
 }

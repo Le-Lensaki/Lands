@@ -229,30 +229,7 @@ public class PlayerController : Singleton<PlayerController>
         }
     }
 
-    public void PlayerSelectedSlot(string chosenSlot)
-    {
-        List<GameObject> slots = UIManagerSceneMainGame.Instance.SlotItem;
 
-        foreach (GameObject slot in slots)
-        {
-            if (slot.GetComponent<HighLightChosen>().name == chosenSlot)
-            {
-                slot.GetComponent<HighLightChosen>().HighLightUsing(true);
-                continue;
-            }
-            slot.GetComponent<HighLightChosen>().HighLightUsing(false);
-        }
-    }
-
-    public void PlayerDeselectedSlot()
-    {
-        List<GameObject> slots = UIManagerSceneMainGame.Instance.SlotItem;
-
-        foreach (GameObject slot in slots)
-        {
-            slot.GetComponent<HighLightChosen>().HighLightUsing(false);
-        }
-    }
 
 
     

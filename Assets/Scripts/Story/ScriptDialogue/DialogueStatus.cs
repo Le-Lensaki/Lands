@@ -118,7 +118,7 @@ public class DialogueStatus : LensakiMonoBehaviour
     }
     void Conclude()
     {
-        Show(false);
+        UIManagerSceneMainGame.Instance.CloseUIDiaLogue();
         ChoiceDialogController.Instance.DisableDialog();
     }
 
@@ -137,8 +137,7 @@ public class DialogueStatus : LensakiMonoBehaviour
 
     public void SetDialogue(Dialogue dialogue)
     {
-        Show(true);
-       
+        UIManagerSceneMainGame.Instance.OpenUIDiaLogue();
         currentDialogue = dialogue;
         currentTextLine = 0;
         CycleLine();
@@ -150,10 +149,5 @@ public class DialogueStatus : LensakiMonoBehaviour
         nameActor.text = currentDialogue.content[currentTextLine].actor.name;
     }
 
-    protected void Show(bool show)
-    {
-        this.gameObject.SetActive(show);
-        
-    }
 
 }

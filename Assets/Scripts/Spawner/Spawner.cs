@@ -75,7 +75,7 @@ public abstract class Spawner : LensakiMonoBehaviour
         Transform newPrefab = this.GetObjectFromPool(prefab);
         newPrefab.SetPositionAndRotation(spawnPos, new Quaternion(0,0,0,0));
 
-        newPrefab.parent = this.holder;
+        newPrefab.SetParent(this.holder);
         newPrefab.gameObject.SetActive(true);
         //this.spawnedCount++;
         return newPrefab;

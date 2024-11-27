@@ -1,13 +1,14 @@
 using Assets.Scripts.Item.IDItem;
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class HighLightChosenHold : LensakiMonoBehaviour, IPointerClickHandler,IDeselectHandler
+public class HighLightChosenHold : LensakiMonoBehaviour, IPointerClickHandler
 {
     [SerializeField] protected Transform highLightUsing;
-
+    protected bool isHightLight;
     protected override void LoadComponents()
     {
         base.LoadComponents();
@@ -33,14 +34,32 @@ public class HighLightChosenHold : LensakiMonoBehaviour, IPointerClickHandler,ID
     public void OnPointerClick(PointerEventData eventData)
     {
         if (transform.GetComponent<ItemSlot>().IDItemSlot == IDItem.NoItem) return;
-
-        PlayerController.Instance.PlayerSelectedSlot(transform.name);
+        if(isHightLight)
+        {
+            UnhighlightSlotHold();
+            isHightLight = false;
+        }
+        else
+        {
+            HighlightSlotHold();
+            isHightLight = true;
+        }    
+        
         EventSystem.current.SetSelectedGameObject(gameObject);
     }
 
-    public void OnDeselect(BaseEventData eventData)
+    private void HighlightSlotHold()
     {
-        PlayerController.Instance.PlayerDeselectedSlot();
-        //UIInventoryDiscription.Instance.DisableDiscriptionItem();
+        highLightUsing.gameObject.SetActive(true);
+        highLightUsing.DOScale(new Vector3(1.1f, 1.1f, 1.1f), 1f).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
+    }
+
+    private void UnhighlightSlotHold()
+    {
+        highLightUsing.GetComponent<RectTransform>().DOScale(new Vector3(1f, 1f, 1f), 0.1f).OnComplete(() =>
+        {
+            highLightUsing.GetComponent<RectTransform>().DOKill();
+            highLightUsing.gameObject.SetActive(false);
+        });
     }
 }

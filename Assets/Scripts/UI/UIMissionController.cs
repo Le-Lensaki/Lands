@@ -10,6 +10,7 @@ public class UIMissionController : Singleton<UIMissionController>
     [SerializeField] protected TMP_Text textGoal;
     [SerializeField] protected TMP_Text coinReward;
 
+
     protected override void Start()
     {
         base.Start();
@@ -62,6 +63,8 @@ public class UIMissionController : Singleton<UIMissionController>
         descriptionQuest.text = questStatus.quest.discriptionQuest;
         textGoal.text = questStatus.GetStepGoal().nameStepGoal;
         coinReward.text = questStatus.quest.rewards[0].amount.ToString();
+
+        
     }
 
     public virtual void Clear()

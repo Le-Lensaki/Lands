@@ -1,4 +1,5 @@
 using Assets.Scripts.Item.IDItem;
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -37,6 +38,7 @@ public class UIManagerSceneMainGame : Singleton<UIManagerSceneMainGame>
     [SerializeField] private GameObject uIDoYouWantExit;
     [SerializeField] private GameObject uIYouLose;
     [SerializeField] private GameObject holderTextLoot;
+    [SerializeField] private GameObject uIButtonSpeedUp;
 
 
     [SerializeField] protected List<GameObject> slotsHoldItemUI;
@@ -133,6 +135,9 @@ public class UIManagerSceneMainGame : Singleton<UIManagerSceneMainGame>
 
         LoadGameObjectByName(ref uIYouLose, "UIYouLose");
         AddListGameObjectOfManager(ref listUIScene, ref uIYouLose);
+
+        LoadGameObjectByName(ref uIButtonSpeedUp, "UIButtonSpeedUp");
+        AddListGameObjectOfManager(ref listUIScene, ref uIButtonSpeedUp);
 
         this.LoadListUIMenuProduct();
         this.LoadListUIMaterialProduct();
@@ -243,96 +248,6 @@ public class UIManagerSceneMainGame : Singleton<UIManagerSceneMainGame>
 
 
     #endregion
-
-
-    protected override void Start()
-    {
-        ClearAllUI();
-        ChangeScreenPlaying();
-
-        AudioManager.Instance.PlayMusic(AudioClipName.background);
-
-    }
-
-    public void OpenCloseInventory()
-    {
-        SetSlotsItem();
-        SetslotsHoldItem();
-        if (uIInventory.activeSelf) ChangeScreenPlaying();
-        else ChangeScreenInventory();
-    }
-
-    public void UIOpenChest()
-    {
-        GetMenuFurnitureProduct();
-        ChangeScreenOpenChest();
-    }
-    public void UICloseChest()
-    {
-        ClearMaterialProduct();
-        ChangeScreenPlaying();
-    }
-
-    public void OpenDiscription()
-    {
-        uIDiscriptionItem.SetActive(!uIDiscriptionItem.activeSelf);
-    }
-
-
-    public void ToggleMenuCreateProduct(bool isOpen)
-    {
-        uIManufactory.SetActive(isOpen);
-        uIMenuProduct.SetActive(isOpen);
-        OpenCloseInventory();
-    }
-
-    protected void SetslotsHoldItem()
-    {
-        for (int i = 0; i < 7; i++)
-        {
-            slotsHoldItemUI[i].GetComponent<ItemSlot>().SetIDItemSlot(slotsHoldItemInventory[i].GetComponent<ItemSlot>().IDItemSlot);
-            slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().sprite = slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite;
-            slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().color = slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color;
-        }
-    }
-    public void ClearItemSlotHold(IDItem iDItem)
-    {
-        for (int i = 0; i < 7; i++)
-        {
-            if(slotsHoldItemInventory[i].GetComponent<ItemSlot>().IDItemSlot == iDItem)
-            {
-                slotsHoldItemInventory[i].GetComponent<ItemSlot>().SetIDItemSlot(IDItem.NoItem);
-                slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = null;
-                slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 0);
-
-                slotsHoldItemUI[i].GetComponent<ItemSlot>().SetIDItemSlot(IDItem.NoItem);
-                slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().sprite = null;
-                slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 0);
-                slotsHoldItemUI[i].GetComponent<HighLightChosenHold>().HighLightUsing(false);
-                break;
-            }
-        }
-    }
-
-    public void SetSlotsItem()
-    {
-        List<InventoryItem> list = InventoryController.Instance.GetItemWithTag(tagInventory);
-
-        for (int i = 0; i < list.Count; i++)
-        {
-            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = list[i].item.Icon;
-            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 1);
-            slotItem[i].transform.GetChild(1).GetComponent<Text>().text = list[i].quatity.ToString();
-            slotItem[i].transform.GetComponent<ItemSlot>().SetIDItemSlot(list[i].item.GetId);
-        }
-        for (int i = list.Count; i < slotItem.Count; i++)
-        {
-            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = null;
-            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 0);
-            slotItem[i].transform.GetChild(1).GetComponent<Text>().text = "0";
-            slotItem[i].transform.GetComponent<ItemSlot>().SetIDItemSlot(IDItem.NoItem);
-        }
-    }
     #region Tag
     public void ChangeTag(string tagName)
     {
@@ -405,6 +320,284 @@ public class UIManagerSceneMainGame : Singleton<UIManagerSceneMainGame>
 
     #endregion
 
+    protected override void Start()
+    {
+        ChangeScreenPlaying();
+
+        AudioManager.Instance.PlayMusic(AudioClipName.background);
+
+    }
+    public void ClearAllUI()
+    {
+        foreach (var item in listUIScene)
+        {
+            item.SetActive(false);
+        }
+    }
+    #region Change Screen
+
+    public void ChangeScreenPlaying()
+    {
+
+        ClearAllUI();
+
+        uIStatus.SetActive(true);
+        uIWeather.SetActive(true);
+
+        uIMission.SetActive(true);
+        uIButtonOpenBag.SetActive(true);
+        uIButtonSetting.SetActive(true);
+
+        uIItemHold.SetActive(true);
+        holderTextLoot.SetActive(true);
+
+        uIButtonAction.SetActive(true);
+        uIJoyStick.SetActive(true);
+        uIButtonSpeedUp.SetActive(true);
+
+        WorldTime.Instance.PlayWorldTime();
+    }
+
+    
+
+    public void ChangeScreenOpenChest()
+    {
+        ClearAllUI();
+       
+        //StartCoroutine(PauseTime());
+    }
+    #endregion
+
+
+    public void OpenUIMission()
+    {
+        uIMission.transform.GetChild(0).DOScale(new Vector3(1, 1, 1), 0.5f).OnComplete(() =>
+        {
+
+        });
+    }
+    public void CloseUIMission()
+    {
+        uIMission.transform.GetChild(0).DOScale(new Vector3(0, 0, 0), 0.5f).OnComplete(() =>
+        {
+
+        });
+    }    
+
+    public void OpenInventory()
+    {
+        ClearAllUI();
+        SetSlotsItem();
+        WorldTime.Instance.StopWorldTime();
+        uIInventory.SetActive(true);
+        uIInventory.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 1f, false).SetEase(Ease.InOutBack).OnComplete(() =>
+        {
+  
+        });
+    }
+    public void SetSlotsItem()
+    {
+        List<InventoryItem> list = InventoryController.Instance.GetItemWithTag(tagInventory);
+
+        SetSlotItemNotNull(list);
+
+        SetSlotItemNull(list);
+    }
+    protected void SetSlotItemNotNull(List<InventoryItem> list)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = list[i].item.Icon;
+            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 1);
+            slotItem[i].transform.GetChild(1).GetComponent<Text>().text = list[i].quatity.ToString();
+            slotItem[i].transform.GetComponent<ItemSlot>().SetIDItemSlot(list[i].item.GetId);
+        }
+    }
+    protected void SetSlotItemNull(List<InventoryItem> list)
+    {
+        for (int i = list.Count; i < slotItem.Count; i++)
+        {
+            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = null;
+            slotItem[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 0);
+            slotItem[i].transform.GetChild(1).GetComponent<Text>().text = "0";
+            slotItem[i].transform.GetComponent<ItemSlot>().SetIDItemSlot(IDItem.NoItem);
+        }
+    }
+
+    public void CloseInventory()
+    {
+        uIInventory.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -1050f), 0.3f, false).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            SetSlotsHoldItem();
+            ChangeScreenPlaying();
+        });  
+    }
+
+    protected void SetSlotsHoldItem()
+    {
+        for (int i = 0; i < 7; i++)
+        {
+            slotsHoldItemUI[i].GetComponent<ItemSlot>().SetIDItemSlot(slotsHoldItemInventory[i].GetComponent<ItemSlot>().IDItemSlot);
+            slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().sprite = slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite;
+            slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().color = slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color;
+        }
+    }
+
+    public void OpenUISetting()
+    {
+        ClearAllUI();
+        WorldTime.Instance.StopWorldTime();
+        uISetting.SetActive(true);
+        uISetting.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 1f, false).SetEase(Ease.InOutBack).OnComplete(() =>
+        {
+
+        });
+    }
+    public void CloseUISetting()
+    {
+        uISetting.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -1050f), 0.3f, false).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            ChangeScreenPlaying();
+        });
+
+    }
+
+    public virtual void OpenUIDoYouWantExit()
+    {
+        uIDoYouWantExit.SetActive(true);
+        uIDoYouWantExit.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 1f, false).SetEase(Ease.InOutBack).OnComplete(() =>
+        {
+
+        });
+    }
+    public virtual void CloseUIDoYouWantExit()
+    {
+        uIDoYouWantExit.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -1050f), 0.3f, false).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            uIDoYouWantExit.SetActive(false);
+        });
+    }
+
+    public void OpenUISaveGame()
+    {
+        ClearAllUI();
+        WorldTime.Instance.StopWorldTime();
+        uIFileSave.SetActive(true);
+        uIFileSave.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 1f, false).SetEase(Ease.InOutBack).OnComplete(() =>
+        {
+
+        });
+
+    }
+
+    public virtual void CloseUIFileSave()
+    {
+        uIFileSave.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -1050f), 0.3f, false).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            uIDoYouWantExit.SetActive(false);
+            ChangeScreenPlaying();
+        });
+       
+    }
+    public virtual void OpenUIYouLose()
+    {
+        WorldTime.Instance.StopWorldTime();
+        uIYouLose.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 1f, false).SetEase(Ease.InOutBack).OnComplete(() =>
+        {
+
+        });
+    }
+    public void OpenUIDiaLogue()
+    {
+        ClearAllUI();
+        uIStatus.SetActive(true);
+        uIWeather.SetActive(true);
+        uIButtonOpenBag.SetActive(true);
+        uIButtonSetting.SetActive(true);
+        uIDialogueBox.SetActive(true);
+
+        uIDialogueBox.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 214), 1f, false).OnComplete(() =>
+        {
+
+        });
+    }
+    public void CloseUIDiaLogue()
+    {
+        uIDialogueBox.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -1050f), 0.3f, false).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            uIDialogueBox.SetActive(false);
+            ChangeScreenPlaying();
+        });
+    }
+
+    public void UIOpenChest()
+    {
+        GetMenuFurnitureProduct();
+        ClearAllUI();
+        WorldTime.Instance.StopWorldTime();
+        uIManufactory.SetActive(true);
+        uIManufactory.GetComponent<RectTransform>().DOAnchorPos(new Vector2(-570f, 0), 1f, false).OnComplete(() =>
+        {
+
+        });
+        uIMenuProduct.SetActive(true);
+        uIMenuProduct.GetComponent<RectTransform>().DOAnchorPos(new Vector2(576f, 0), 1f, false).OnComplete(() =>
+        {
+
+        });
+    }
+    public void UICloseChest()
+    {
+        ClearMaterialProduct();
+       
+        uIManufactory.GetComponent<RectTransform>().DOAnchorPos(new Vector2(400f, 0), 1f, false).OnComplete(() =>
+        {
+            uIManufactory.SetActive(false);
+        });
+        
+        uIMenuProduct.GetComponent<RectTransform>().DOAnchorPos(new Vector2(-400f, 0), 1f, false).OnComplete(() =>
+        {
+            uIMenuProduct.SetActive(false);
+        });
+        ChangeScreenPlaying();
+    }
+
+    public void OpenDiscription()
+    {
+        uIDiscriptionItem.SetActive(!uIDiscriptionItem.activeSelf);
+    }
+
+
+    public void ToggleMenuCreateProduct(bool isOpen)
+    {
+        uIManufactory.SetActive(isOpen);
+        uIMenuProduct.SetActive(isOpen);
+        OpenInventory();
+    }
+
+   
+    public void ClearItemSlotHold(IDItem iDItem)
+    {
+        for (int i = 0; i < 7; i++)
+        {
+            if(slotsHoldItemInventory[i].GetComponent<ItemSlot>().IDItemSlot == iDItem)
+            {
+                slotsHoldItemInventory[i].GetComponent<ItemSlot>().SetIDItemSlot(IDItem.NoItem);
+                slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = null;
+                slotsHoldItemInventory[i].transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 0);
+
+                slotsHoldItemUI[i].GetComponent<ItemSlot>().SetIDItemSlot(IDItem.NoItem);
+                slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().sprite = null;
+                slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 0);
+                slotsHoldItemUI[i].GetComponent<HighLightChosenHold>().HighLightUsing(false);
+                break;
+            }
+        }
+    }
+
+    
+   
+
     private void GetMenuFurnitureProduct()
     {
         List<FurnitureProduct> listProduct = ManagerFurnitureProduct.Instance.GetListFurnitureProduct;
@@ -464,102 +657,19 @@ public class UIManagerSceneMainGame : Singleton<UIManagerSceneMainGame>
 
     }
 
-    public void ClearAllUI()
-    {
-        foreach (var item in listUIScene)
-        {
-            item.SetActive(false);
-        }
-    }
-    public void OpenScreenSetting()
-    {
-       
-        ClearAllUI();
-        uISetting.SetActive(true);
-        StartCoroutine(PauseTime());
-    }
+    
+    
     IEnumerator PauseTime()
     {
         yield return new WaitForSecondsRealtime(0.3f);
         GameManager.Instance.PauseGame();
     }
-    public void OpenScreenSaveGame()
-    {
-       
-        ClearAllUI();
-        uIFileSave.SetActive(true);
-        StartCoroutine(PauseTime());
-        
-    }
+    
 
-    public virtual void CloseUIFileSave()
-    {
-        ChangeScreenPlaying();
-    }
+    
 
-    public virtual void OpenUIDoYouWantExit()
-    {
-        uIDoYouWantExit.SetActive(true);
-    }
-
-    public virtual void OpenUIYouLose()
-    {
-
-        uIYouLose.SetActive(true);
-        StartCoroutine(PauseTime());
-    }
-    public virtual void CloseUIDoYouWantExit()
-    {
-        uIDoYouWantExit.SetActive(false);
-    }
-
-    #region Change Screen
-    public void ChangeScreenInventory()
-    {
-        
-        ClearAllUI();
-        uIInventory.SetActive(true);
-        StartCoroutine(PauseTime());
-    }
-    public void ChangeScreenPlaying()
-    {
-        ClearAllUI();
-        uIStatus.SetActive(true);
-        uIWeather.SetActive(true);
-
-        uIMission.SetActive(true);
-        uIButtonOpenBag.SetActive(true);
-        uIButtonSetting.SetActive(true);
-
-        uIItemHold.SetActive(true);   
-        holderTextLoot.SetActive(true);
-
-        uIButtonAction.SetActive(true);
-        uIJoyStick.SetActive(true);
-        GameManager.Instance.PlayGame();
-    }
     
     
-    
-    public void ChangeScreenOpenDiaLogue()
-    {
-    
-        ClearAllUI();
-        uIStatus.SetActive(true);
-        uIWeather.SetActive(true);
 
-        uIMission.SetActive(true);
-        uIButtonOpenBag.SetActive(true);
-        uIButtonSetting.SetActive(true);
-        StartCoroutine(PauseTime());
-    }
-
-    public void ChangeScreenOpenChest()
-    {
-        ClearAllUI();
-        uIManufactory.SetActive(true);
-        uIMenuProduct.SetActive(true);
-        StartCoroutine(PauseTime());
-    }
-    #endregion
+   
 }

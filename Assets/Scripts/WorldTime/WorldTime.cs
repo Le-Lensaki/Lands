@@ -17,11 +17,8 @@ public class WorldTime : Singleton<WorldTime>
     protected static TimeSpan wakeUP = TimeSpan.FromHours(6);
     private float minuteLength => dayLength / WorldTimeConstants.MinutesInDay;
 
-
-    protected override void Start()
-    {
-        StartCoroutine(AddMinute());
-    }
+    private Coroutine worldTimeCoroutine;
+    private bool isWorldTimeRunning = false;
 
     public double GetWorldTime()
     {
@@ -34,15 +31,35 @@ public class WorldTime : Singleton<WorldTime>
 
     private IEnumerator AddMinute()
     {
-        int hour = Convert.ToInt32(currentWorldTime.TotalHours);
-        dayCount = hour / 24;
+        while (isWorldTimeRunning)
+        {
+            int hour = Convert.ToInt32(currentWorldTime.TotalHours);
+            dayCount = hour / 24;
 
-        currentWorldTime += TimeSpan.FromMinutes(1f);
-        WorldTimeChanged?.Invoke(this, currentWorldTime);
-        yield return new WaitForSeconds(minuteLength);
-        StartCoroutine(AddMinute());
+            currentWorldTime += TimeSpan.FromMinutes(1f);
+            WorldTimeChanged?.Invoke(this, currentWorldTime);
+
+            yield return new WaitForSeconds(minuteLength);
+        }
+    }
+    public void PlayWorldTime()
+    {
+        if (!isWorldTimeRunning)
+        {
+            isWorldTimeRunning = true;
+            worldTimeCoroutine = StartCoroutine(AddMinute());
+        }
     }
 
+    public void StopWorldTime()
+    {
+        isWorldTimeRunning = false;
+        if (worldTimeCoroutine != null)
+        {
+            StopCoroutine(worldTimeCoroutine);
+            worldTimeCoroutine = null;
+        }
+    }
     public void WakeUP()
     {
         TimeSpan timeElapsedToday = currentWorldTime - TimeSpan.FromHours(currentWorldTime.TotalHours % 24);

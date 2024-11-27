@@ -125,7 +125,7 @@ public class InputManager : Singleton<InputManager>
         }
         else if (Input.GetKeyDown(KeyCode.B))
         {
-            UIManagerSceneMainGame.Instance.OpenCloseInventory();
+            UIManagerSceneMainGame.Instance.OpenInventory();
         }
         else if (Input.GetKeyDown(KeyCode.F))
         {

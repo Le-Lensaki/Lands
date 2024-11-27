@@ -54,7 +54,7 @@ public class ButtonCloseInventory : BaseButton
     #endregion
     protected override void OnClick()
     {
-        UIManagerSceneMainGame.Instance.OpenCloseInventory();
+        UIManagerSceneMainGame.Instance.CloseInventory();
     }
 
 }
