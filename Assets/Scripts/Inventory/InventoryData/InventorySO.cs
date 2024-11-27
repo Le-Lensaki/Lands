@@ -62,7 +62,7 @@ public class InventorySO : ScriptableObject
             if(inventoryItems[i].item.GetName == item.GetName)
             {
                 int newQuantity = inventoryItems[i].quatity - quantity;
-
+                Debug.Log(newQuantity);
                 if (newQuantity > 0)
                 {
                     inventoryItems[i] = inventoryItems[i].ChangeQuatity(newQuantity);
@@ -72,7 +72,11 @@ public class InventorySO : ScriptableObject
                 {
                    
                     inventoryItems[i] = new InventoryItem();
-                    if (newQuantity == 0) return true;
+                    if (newQuantity == 0)
+                    {
+                        return true;
+                    }
+
                     
                     return false;
                 }

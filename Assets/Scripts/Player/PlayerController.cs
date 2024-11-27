@@ -130,7 +130,7 @@ public class PlayerController : Singleton<PlayerController>
         Item item = InventoryController.Instance.GetItemInInventoryWithIdItem(status.IdItemHold).item;
         if (status.CanSow.GetComponent<ICanSowSeed>().SowSeed(item.SeedPlant))
         {
-            
+
             if(InventoryController.Instance.RemoveItem(item, 1))
             {
                 status.MinusHurryStat(1);
