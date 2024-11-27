@@ -118,6 +118,7 @@ public class PlayerController : Singleton<PlayerController>
     }
     void ActionWithTool()
     {
+        
         anim.Action(status.IdItemHold, InputManager.Instance.Action);
     }
 
@@ -225,7 +226,7 @@ public class PlayerController : Singleton<PlayerController>
                 status.ChangeItem(holding.GetComponent<ItemSlot>().IDItemSlot, holding);
                 continue;
             }
-            holding.GetComponent<HighLightChosenHold>().HighLightUsing(false);
+            holding.GetComponent<HighLightChosenHold>().UnhighlightSlotHold();
         }
     }
 
@@ -481,10 +482,11 @@ public class PlayerController : Singleton<PlayerController>
 
     protected void EventAnimationChop()
     {
+        
         if (status.IdItemHold != IDItem.Axe) return;
         if (status.CanAction == null) return;
         if (status.CanAction.gameObject.GetComponent<ObjectController>().IDItemAction != IDItem.Axe) return;
-       
+
         status.CanAction.gameObject.GetComponent<ObjectController>().Action();
         damgeSender.Send(status.CanAction.transform);
         status.MinusHurryStat(1);

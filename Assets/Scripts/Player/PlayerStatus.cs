@@ -78,18 +78,18 @@ public class PlayerStatus : LensakiMonoBehaviour, IHpBarInterface
         if (idItem == IDItem.NoItem)
         {
             this.idItemHold = idItem;
-            holding.GetComponent<HighLightChosenHold>().HighLightUsing(false);
+            holding.GetComponent<HighLightChosenHold>().UnhighlightSlotHold();
             return;
         }
         if (idItem == this.idItemHold)
         {
             this.idItemHold = IDItem.NoItem;
-            holding.GetComponent<HighLightChosenHold>().HighLightUsing(false);
+            holding.GetComponent<HighLightChosenHold>().UnhighlightSlotHold();
             return;
         }
         this.idItemHold = idItem;
         AudioManager.Instance.PlaySFX(AudioClipName.toolSwap);
-        holding.GetComponent<HighLightChosenHold>().HighLightUsing(true);
+        holding.GetComponent<HighLightChosenHold>().HighlightSlotHold();
     }
     public void SetIdItemHold(IDItem idItem)
     {

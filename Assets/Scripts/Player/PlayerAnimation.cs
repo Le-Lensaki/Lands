@@ -44,8 +44,23 @@ public class PlayerAnimation : LensakiMonoBehaviour
         {
             anim.SetFloat("Speed", 0);
         }
-        anim.SetFloat("x", lastVector.x);
-        anim.SetFloat("y", lastVector.y);
+        
+        ;
+        anim.SetFloat("x", Mathf.Round(ProcessInput(lastVector).x));
+        anim.SetFloat("y", Mathf.Round(ProcessInput(lastVector).y));
+    }
+    Vector2 ProcessInput(Vector2 input)
+    {
+        if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+        {
+            input.y = 0;
+        }
+        else
+        {
+            input.x = 0;
+        }
+
+        return input;
     }
 
     public void Action(IDItem iDItem, bool action)

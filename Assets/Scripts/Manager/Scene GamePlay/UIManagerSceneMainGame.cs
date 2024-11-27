@@ -589,7 +589,7 @@ public class UIManagerSceneMainGame : Singleton<UIManagerSceneMainGame>
                 slotsHoldItemUI[i].GetComponent<ItemSlot>().SetIDItemSlot(IDItem.NoItem);
                 slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().sprite = null;
                 slotsHoldItemUI[i].transform.GetChild(0).GetComponent<Image>().color = new Color(1, 1, 1, 0);
-                slotsHoldItemUI[i].GetComponent<HighLightChosenHold>().HighLightUsing(false);
+                slotsHoldItemUI[i].GetComponent<HighLightChosenHold>().UnhighlightSlotHold();
                 break;
             }
         }

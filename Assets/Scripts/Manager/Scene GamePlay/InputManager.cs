@@ -43,7 +43,7 @@ public class InputManager : Singleton<InputManager>
     private void Update()
     {
         GetVector();
-        ActionKey();
+        //ActionKeyOnPC();
         GetMousePos();
     }
 
@@ -85,62 +85,62 @@ public class InputManager : Singleton<InputManager>
         action = false;
     }
 
-    void ActionKey()
-    {
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            Speed();
-        }
-        else if (Input.GetKey(KeyCode.Space))
-        {
-            action = true;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding1);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding2);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding3);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding4);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding5);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha6))
-        {
-            PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding6);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha7))
-        {
-            PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding7);
-        }
-        else if (Input.GetKeyDown(KeyCode.B))
-        {
-            UIManagerSceneMainGame.Instance.OpenInventory();
-        }
-        else if (Input.GetKeyDown(KeyCode.F))
-        {
-            //PlayerController.Instance.TalkNormal();
-            WorldTime.Instance.WakeUP();
-        }
-        else if (Input.GetKeyDown(KeyCode.Z))
-        {
-            BoatController.Instance.RunBoat();
-        }
-        else
-        {
-            action = false;
-            return;
-        }
-    }    
+    //void ActionKeyOnPC()
+    //{
+    //    if (Input.GetKey(KeyCode.LeftShift))
+    //    {
+    //        Speed();
+    //    }
+    //    else if (Input.GetKey(KeyCode.Space))
+    //    {
+    //        action = true;
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Alpha1))
+    //    {
+    //        PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding1);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Alpha2))
+    //    {
+    //        PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding2);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Alpha3))
+    //    {
+    //        PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding3);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Alpha4))
+    //    {
+    //        PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding4);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Alpha5))
+    //    {
+    //        PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding5);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Alpha6))
+    //    {
+    //        PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding6);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Alpha7))
+    //    {
+    //        PlayerController.Instance.PlayerSetItemUse(IDKeyNumber.Holding7);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.B))
+    //    {
+    //        UIManagerSceneMainGame.Instance.OpenInventory();
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.F))
+    //    {
+    //        //PlayerController.Instance.TalkNormal();
+    //        WorldTime.Instance.WakeUP();
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.Z))
+    //    {
+    //        BoatController.Instance.RunBoat();
+    //    }
+    //    else
+    //    {
+    //        action = false;
+    //        return;
+    //    }
+    //}    
 
 }

@@ -168,7 +168,6 @@ GameObject:
   - component: {fileID: 3072010890081480430}
   - component: {fileID: 8477906219958797578}
   - component: {fileID: 2517952702784130378}
-  - component: {fileID: 7917528269198930585}
   - component: {fileID: 7762544808092971916}
   m_Layer: 5
   m_Name: SlotHoldItemUI_1
@@ -307,19 +306,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idItemSlot: 0
---- !u!114 &7917528269198930585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7821603490062923518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77ef99f42e7af03459dedca5b9de35dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iDKeyNumber: 0
 --- !u!114 &7762544808092971916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c699ee6f960214a8989dff244c208e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iDKeyNumber: 0
   highLightUsing: {fileID: 1631364661811282376}
 --- !u!1001 &4748620035208371902
 PrefabInstance:

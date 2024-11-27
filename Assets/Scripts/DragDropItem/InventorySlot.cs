@@ -27,10 +27,12 @@ public class InventorySlot : LensakiMonoBehaviour, IDropHandler
     protected void SetHolding(GameObject dropped)
     {
         DraggableItem draggableItem = dropped.GetComponent<DraggableItem>();
-
-        transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = dropped.transform.GetComponent<Image>().sprite;
-        transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 255);
-        transform.GetComponent<ItemSlot>().SetIDItemSlot(draggableItem.IDItem);
+        if (transform.childCount > 0 && transform.GetChild(0).childCount > 0)
+        {
+            transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = dropped.transform.GetComponent<Image>().sprite;
+            transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 255);
+            transform.GetComponent<ItemSlot>().SetIDItemSlot(draggableItem.IDItem);
+        }
     }
 
 
